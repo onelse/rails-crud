@@ -16,7 +16,6 @@ class CommentsController < ApplicationController
         comment.destroy
         
         redirect_to "/notes/#{comment.note_id}"
-
     end
 
 end

@@ -49,4 +49,6 @@ class NotesController < ApplicationController
     redirect_to '/'
   end
 
+
+
 end

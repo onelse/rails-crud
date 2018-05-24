@@ -19,4 +19,7 @@ Rails.application.routes.draw do
   
   #Comment
   post '/comments'=>'comments#create'
+  
+  #Comment delete
+  delete '/comments/:id' => 'comments#destroy'
 end
